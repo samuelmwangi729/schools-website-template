@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import NavigationBar from './NavigationBar'
 class Header extends Component {
 
     constructor(props) {
@@ -11,9 +11,9 @@ class Header extends Component {
 
     render() {
         return (
-            <div>
-                Header
-            </div>
+            <>
+                <NavigationBar/>
+            </>
         )
     }
 }
