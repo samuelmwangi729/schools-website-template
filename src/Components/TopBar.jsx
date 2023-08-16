@@ -73,22 +73,7 @@ class TopBar extends Component {
                             </li>
                             <li className={styles.menuItem}>
                                 <a href="#" className={styles.menuLink}>
-                                    Clubs
-                                </a>
-                            </li>
-                            <li className={styles.menuItem}>
-                                <a href="#" className={styles.menuLink}>
-                                    Gallery
-                                </a>
-                            </li>
-                            <li className={styles.menuItem}>
-                                <a href="#" className={styles.menuLink}>
                                     Contact Us
-                                </a>
-                            </li>
-                            <li className={styles.menuItem}>
-                                <a href="#" className={styles.menuLink}>
-                                    KUCCPS
                                 </a>
                             </li>
                         </ul>
