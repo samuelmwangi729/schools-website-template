@@ -73,6 +73,7 @@ li.navitem a{
         position: absolute;
         width: 300px;
         transition: 2s;
+        z-index: 1000;
     }
     ul.navbarmenus li{
         padding: 5px;

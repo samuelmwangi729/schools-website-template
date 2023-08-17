@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {TopBar,Header} from './Components'
+import {TopBar,Header,Slider} from './Components'
 class App extends Component{
   constructor(props){
     super(props)
@@ -12,6 +12,7 @@ class App extends Component{
       <>
         <TopBar/>
         <Header/>
+        <Slider/>
       </>
     )
   }
