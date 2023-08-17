@@ -7,7 +7,7 @@ class NavigationBar extends Component {
     constructor(props) {
         super(props)
         this.state = {
-             isMenuOpen:0
+             isMenuOpen:0,
         }
         this.toggleMenus = this.toggleMenus.bind(this)
     }
@@ -46,7 +46,7 @@ class NavigationBar extends Component {
                             </li>
                             <li className="navitem">
                                 <a href="#" className="navlink">
-                                    Management
+                                    Students
                                 </a>
                             </li>
                             <li className="navitem">

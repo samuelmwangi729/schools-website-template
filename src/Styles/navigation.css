@@ -46,7 +46,7 @@ li.navitem a{
     font-size: 30px;
     display: none;
 }
-@media screen and (max-width:635px){
+@media screen and (max-width:680px){
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -71,7 +71,7 @@ li.navitem a{
         list-style-type: none;
         justify-content: right;
         position: absolute;
-        width: 300px;
+        width: 85px;
         transition: 2s;
         z-index: 1000;
     }
@@ -79,6 +79,7 @@ li.navitem a{
         padding: 5px;
         background-color: white;
         border-bottom: 1px solid black;
+        padding-right: 10px !important;
     }
     ul.navbarmenus li:first-child{
         border-top: 1px solid black;
