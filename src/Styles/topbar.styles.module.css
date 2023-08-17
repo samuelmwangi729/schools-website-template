@@ -6,6 +6,7 @@
     width: 100%;
     height: 40px;
     background-color: red;
+    transition: 0.5s;
 }
 ul.socials{
     display: flex;

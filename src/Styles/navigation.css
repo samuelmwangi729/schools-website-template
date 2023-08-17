@@ -6,6 +6,8 @@
     align-items: center;
     align-content: center;
     box-shadow: black 10px 1px 20px;
+    scroll-behavior: smooth;
+    transition: 2s;
 }
 div.navbar-brand{
     display: flex;
@@ -19,6 +21,7 @@ div.navbar-brand h2{
 }
 div.navs{
     position: relative;
+    transition:all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 div.navbar-brand h2{
     white-space: nowrap;
@@ -27,6 +30,7 @@ ul.navbarmenus{
     display: flex;
     list-style-type: none;
     justify-content: right;
+    transition: 3s;
 }
 li.navitem{
     padding-right: 10px;
@@ -59,6 +63,7 @@ li.navitem a{
         flex-direction: column;
         position: relative;
         top: 25px;
+        transition: 3s;
     }
     ul.navbarmenus{
         display: flex;
@@ -67,7 +72,7 @@ li.navitem a{
         justify-content: right;
         position: absolute;
         width: 300px;
-        transition-duration: 2s;
+        transition: 2s;
     }
     ul.navbarmenus li{
         padding: 5px;
