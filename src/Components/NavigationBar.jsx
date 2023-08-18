@@ -29,7 +29,7 @@ class NavigationBar extends Component {
             <>
                 <div className="navbar">
                     <div className="navbar-brand">
-                       <img src={Logo} alt="" height={70+"px"} />
+                       {/* <img src={Logo} alt="" height={70} /> */}
                        <h2>Utumishi Girls Academy</h2>
                     </div>
                     <div className={this.state.isMenuOpen?"navs":"navsactive"}>

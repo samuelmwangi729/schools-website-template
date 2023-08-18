@@ -1,18 +1,26 @@
-:root {
-  font-family: 'Times New Roman', Times, serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --primary-bg-color:red
 }
-*{
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
-::-webkit-scrollbar {
-  width:10px
-}
-::-webkit-scrollbar-track {
-  background-color: #4646b1;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #e2f10e;
-  height: 20px;
+@layer base{
+  .topbar{
+    @apply bg-[var(--primary-bg-color)] text-white py-2
+  }
+  .listItems li{
+    @apply md:px-2 px-5
+  }
+  ul.linkItems li{
+    @apply px-0
+  }
+  ul.linkItems li a{
+    @apply whitespace-nowrap
+  }
+  ul.linkItems li a::after{
+    content:"|"
+  }
+  ::after{
+    @apply px-3 text-[wheat]
+  }
 }
